@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+*{
+margin: 0px;
+padding: 0px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+#main{
+display: flex;
+align-items: center; 
+justify-content: center;
+width: 100%;
+height: 100%;
+background-color: #222;
+padding: 300px;
+}
+input{
+display: block;
+}
+#btn{
+padding: 12px 22px;
+background-color: rgba(5, 148, 69, 0.922);
+color: white;
+border-radius: 5px;
+font-weight: 600px;
+}
+#btn:hover{
+  background-color: rgba(3, 110, 26, 0.995);
+}
+.card{
+padding: 20px;
+color: white;
+border: 2px solid #e3e3e3;
+margin-top: 420px;
+margin-right: 90px;
+border-radius: 10px;
+display: inline-block;
+max-width: 300px;
+}
+.card p{
+font-size: 12px;
+margin-top: 20px;
+}
+.card h5{
+ margin-top: 9px;
+}
+.profile{
+width: 50px;
+height: 50px;
+/* background-color: red; */
+border-radius: 50%;
+margin-bottom: 5px;
+}
+.profile img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+overflow: hidden;
+}
+</style>
+</head>
+<body>
+<div id="main">
+<form action="">
+ <input type="text" placeholder="Name">
+ <input type="email" placeholder="Email">
+ <input type="password" placeholder="Password">
+ <input type="number" placeholder="Age">
+ <input type="text" placeholder="Profile Pic">
+<button type="submi">Submit</button>
+</form>
+
+</div>
+    <script src="submit.js"></script>
+</body>
+</html>

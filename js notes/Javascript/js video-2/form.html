@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+*{
+padding: 0px;
+margin: 0px;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+form{
+justify-content: center;
+align-items: center;
+padding: 2px;
+margin-left: 45%;
+margin-top: 10%;
+}
+</style>
+</head>
+<body>
+<form autocomplete="off">
+
+  <input pattern="[a-z]{3-8}" required minlength="14"  maxlength="15" id="name"  type="text" placeholder="Enetr your name"><br><br>
+
+  <input autocomplete="off" required id="email" type="email" placeholder="Enetr your email"><br><br>
+
+  <input required id="password" type="password" placeholder="Enetr your password"><br><br>
+
+  <input required id="age" type="number" placeholder="Enetr your age >18"><br><br>
+
+<select required>
+<option value="male">Male</option>
+<option value="female">Female</option>
+<option value="Others">Others</option>
+</select>
+ <br><br>
+  <textarea required placeholder="Tell us about your self"> </textarea>
+<br><br>
+<input type="submit">
+</form>
+    <script src="form.js"></script>
+</body>
+</html>

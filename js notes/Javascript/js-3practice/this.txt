@@ -1,0 +1,9 @@
+-------------------->this ki value<----------------------
+global me---> windo
+function me --->window
+mthod with es5-->object
+method with es6 arraow function--->window
+es5 function inside es5 method--->window
+arrow fnc inside es5 method-->object
+event handler--->element
+class--->blank object
